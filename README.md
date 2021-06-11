@@ -2,8 +2,9 @@
 
 ## Dependencies
 - mysql
-  - db : nodelogin
-  - table : accounts
+  - database name : nodelogin
+  - table name : accounts
+  - cols of accounts : ( id, username, password, email )
 - express
 - express-session
 - body-parser
